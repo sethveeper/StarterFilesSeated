@@ -3,7 +3,7 @@ import { IProduct } from './product';
 
 @Component ({
     selector: 'pm-products',
-    templateUrl: './product.component.html'
+    templateUrl: './product-list.component.html'
 })
 export class ProductListComponent{
     pageTitle: string = "Acme Product Management";
